@@ -19,7 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
+        //use SwiftUI
 //        window.rootViewController = UIHostingController(rootView: NoteList().environmentObject(NoteFactory()))
+        //use Swift
         window.rootViewController = UINavigationController(rootViewController: UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainViewCtrl"))
         self.window = window
         window.makeKeyAndVisible()
