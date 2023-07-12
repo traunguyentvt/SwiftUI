@@ -23,8 +23,8 @@ struct InspirationRowView: View {
                 Text(inspiration.description).font(.caption)
             }
             
-            .padding(.trailing, 10)
-            .padding(.vertical, 5)
+//            .padding(.trailing, 10)
+//            .padding(.vertical, 5)
         }
     }
 }

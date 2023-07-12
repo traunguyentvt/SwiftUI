@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InspirationListView: View {
-    private var inspirations = Inspiration.createInspirations()
+    private let inspirations = Inspiration.createInspirations()
     
     var body: some View {
         NavigationView {

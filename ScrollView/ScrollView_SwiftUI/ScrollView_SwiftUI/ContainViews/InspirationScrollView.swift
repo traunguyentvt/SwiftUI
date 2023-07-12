@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InspirationScrollView: View {
-    private var inspirations = Inspiration.createInspirations()
+    private let inspirations = Inspiration.createInspirations()
     
     var body: some View {
         NavigationView {
@@ -24,9 +24,27 @@ struct InspirationScrollView: View {
                     }
                     .frame(height: 150)
                     
+                    Section {
+                        InspirationGridSectionView()
+                    } header: {
+                        Text("Second Section")
+                            .modifier(SectionHeaderStyling())
+                    }
                     
+                    Section {
+                        LazyVStack(alignment: .leading, spacing: 10) {
+                            ForEach(inspirations) { inspiration in
+                                InspirationRowView(inspiration: inspiration)
+                            }
+                            .padding(.horizontal)
+                        }
+                    }  header: {
+                        Text("Third Section")
+                            .modifier(SectionHeaderStyling())
+                    }
                 }
             }
+            .padding(.bottom, 10)
             .navigationTitle("Inspirations - ScrollView")
         }
     }
