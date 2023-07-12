@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InspirationListView: View {
-    @State private var inspirations = Inspiration.createInspirations()
+    private var inspirations = Inspiration.createInspirations()
     
     var body: some View {
         NavigationView {
@@ -20,7 +20,7 @@ struct InspirationListView: View {
                 .listRowInsets(.init(top: 10, leading: 10, bottom: 10, trailing: 10))
             }
             .listStyle(.plain)
-            .navigationTitle("Inspirations")
+            .navigationTitle("Inspirations - ListView")
         }
     }
 }

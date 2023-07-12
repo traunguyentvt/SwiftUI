@@ -11,7 +11,10 @@ import SwiftUI
 struct ScrollView_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            InspirationListView()
+            //using Horizontal list
+//            InspirationListView()
+            //using ScrollView
+            InspirationScrollView()
         }
     }
 }
