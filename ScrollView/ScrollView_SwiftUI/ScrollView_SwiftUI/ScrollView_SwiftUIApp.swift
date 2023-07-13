@@ -13,8 +13,15 @@ struct ScrollView_SwiftUIApp: App {
         WindowGroup {
             //using Horizontal list
 //            InspirationListView()
+            
             //using ScrollView
-            InspirationScrollView()
+//            InspirationScrollView()
+            
+            //using horizontal scrollview
+            HorizontalScrollView()
+            
+            //using vertical scrollview
+//            VerticalScrollView()
         }
     }
 }

@@ -14,7 +14,10 @@ struct InspirationListView: View {
         NavigationView {
             List {
                 ForEach(inspirations) { inspiration in
-                    InspirationRowView(inspiration: inspiration)
+                    //row view
+//                    InspirationRowView(inspiration: inspiration)
+                    //card view
+                    InspirationCardView(inspiration: inspiration)
                 }
                 .listRowSeparator(.hidden)
                 .listRowInsets(.init(top: 10, leading: 10, bottom: 10, trailing: 10))
