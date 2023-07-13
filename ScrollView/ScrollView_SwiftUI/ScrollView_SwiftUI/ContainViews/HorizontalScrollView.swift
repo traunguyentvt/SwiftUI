@@ -18,10 +18,12 @@ struct HorizontalScrollView: View {
                         InspirationCardView(inspiration: inspiration)
                     }
                 }
+                .frame(height: 200)
                 .padding()
+                
+                Spacer()
             }
-            .frame(height: 200)
-            .navigationTitle(Text("Inspiration - Horizontal ScrollView"))
+            .navigationTitle(Text("Horizontal ScrollView"))
         }
     }
 }

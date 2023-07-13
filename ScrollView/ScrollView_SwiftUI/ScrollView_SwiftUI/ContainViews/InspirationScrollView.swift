@@ -45,7 +45,7 @@ struct InspirationScrollView: View {
                 }
             }
             .padding(.bottom, 10)
-            .navigationTitle("Inspirations - ScrollView")
+            .navigationTitle("Multi-Sections ScrollView")
         }
     }
 }

@@ -24,7 +24,7 @@ struct VerticalScrollView: View {
                 }
                 .padding(.bottom, 10)
             }
-            .navigationTitle(Text("Inspiration - Vertical ScrollView"))
+            .navigationTitle(Text("Vertical ScrollView"))
         }
     }
 }

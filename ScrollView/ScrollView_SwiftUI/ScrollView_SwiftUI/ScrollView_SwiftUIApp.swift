@@ -18,10 +18,18 @@ struct ScrollView_SwiftUIApp: App {
 //            InspirationScrollView()
             
             //using horizontal scrollview
-            HorizontalScrollView()
+//            HorizontalScrollView()
             
             //using vertical scrollview
 //            VerticalScrollView()
+            
+            //using grid scrollview
+//            GridScrollView()
+            
+            //
+//            FixedTextWithScrollView()
+            //
+            ScrollViewWithBackgroundImage()
         }
     }
 }

@@ -23,7 +23,7 @@ struct InspirationListView: View {
                 .listRowInsets(.init(top: 10, leading: 10, bottom: 10, trailing: 10))
             }
             .listStyle(.plain)
-            .navigationTitle("Inspirations - ListView")
+            .navigationTitle("ListView")
         }
     }
 }
