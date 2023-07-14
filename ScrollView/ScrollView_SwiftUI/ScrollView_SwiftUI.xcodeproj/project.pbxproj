@@ -26,6 +26,9 @@
 		A84742CA2A6019DA00B1F601 /* GridScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84742C92A6019DA00B1F601 /* GridScrollView.swift */; };
 		A84742CC2A601ED700B1F601 /* FixedTextWithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84742CB2A601ED700B1F601 /* FixedTextWithScrollView.swift */; };
 		A84742CE2A602C8B00B1F601 /* ScrollViewWithBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84742CD2A602C8B00B1F601 /* ScrollViewWithBackgroundImage.swift */; };
+		A84742D02A605AEE00B1F601 /* PagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84742CF2A605AED00B1F601 /* PagingScrollView.swift */; };
+		A86550D42A6101E00093985A /* PinnedScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86550D32A6101E00093985A /* PinnedScrollableView.swift */; };
+		A86550D62A61039B0093985A /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86550D52A61039B0093985A /* SectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		A84742C92A6019DA00B1F601 /* GridScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridScrollView.swift; sourceTree = "<group>"; };
 		A84742CB2A601ED700B1F601 /* FixedTextWithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedTextWithScrollView.swift; sourceTree = "<group>"; };
 		A84742CD2A602C8B00B1F601 /* ScrollViewWithBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithBackgroundImage.swift; sourceTree = "<group>"; };
+		A84742CF2A605AED00B1F601 /* PagingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollView.swift; sourceTree = "<group>"; };
+		A86550D32A6101E00093985A /* PinnedScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableView.swift; sourceTree = "<group>"; };
+		A86550D52A61039B0093985A /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +166,7 @@
 				A84742BD2A5EFEA700B1F601 /* InspirationCardView.swift */,
 				A84742C12A5F096E00B1F601 /* InspirationTillView.swift */,
 				A84742C32A5F0D0B00B1F601 /* SectionHeaderStyling.swift */,
+				A86550D52A61039B0093985A /* SectionHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +190,8 @@
 				A84742C92A6019DA00B1F601 /* GridScrollView.swift */,
 				A84742CB2A601ED700B1F601 /* FixedTextWithScrollView.swift */,
 				A84742CD2A602C8B00B1F601 /* ScrollViewWithBackgroundImage.swift */,
+				A84742CF2A605AED00B1F601 /* PagingScrollView.swift */,
+				A86550D32A6101E00093985A /* PinnedScrollableView.swift */,
 			);
 			path = ContainViews;
 			sourceTree = "<group>";
@@ -318,13 +327,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84742CC2A601ED700B1F601 /* FixedTextWithScrollView.swift in Sources */,
+				A86550D42A6101E00093985A /* PinnedScrollableView.swift in Sources */,
 				A84742B72A5EC99400B1F601 /* Inspiration.swift in Sources */,
 				A84742BE2A5EFEA700B1F601 /* InspirationCardView.swift in Sources */,
 				A84742AF2A5EC6CE00B1F601 /* InspirationListView.swift in Sources */,
+				A84742D02A605AEE00B1F601 /* PagingScrollView.swift in Sources */,
 				A84742CA2A6019DA00B1F601 /* GridScrollView.swift in Sources */,
 				A84742CE2A602C8B00B1F601 /* ScrollViewWithBackgroundImage.swift in Sources */,
 				A84742B92A5ECD0000B1F601 /* InspirationRowView.swift in Sources */,
 				A84742C22A5F096E00B1F601 /* InspirationTillView.swift in Sources */,
+				A86550D62A61039B0093985A /* SectionHeaderView.swift in Sources */,
 				A84742C62A5FAC2500B1F601 /* HorizontalScrollView.swift in Sources */,
 				A84742C82A5FAEE600B1F601 /* VerticalScrollView.swift in Sources */,
 				A847427F2A5EC4B600B1F601 /* ScrollView_SwiftUIApp.swift in Sources */,

@@ -28,8 +28,9 @@ struct ScrollView_SwiftUIApp: App {
             
             //
 //            FixedTextWithScrollView()
-            //
-            ScrollViewWithBackgroundImage()
+//            ScrollViewWithBackgroundImage()
+//            PagingScrollView()
+            PinnedScrollableView()
         }
     }
 }
