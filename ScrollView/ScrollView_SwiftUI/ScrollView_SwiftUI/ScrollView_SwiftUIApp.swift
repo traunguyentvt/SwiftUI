@@ -26,11 +26,15 @@ struct ScrollView_SwiftUIApp: App {
             //using grid scrollview
 //            GridScrollView()
             
-            //
 //            FixedTextWithScrollView()
+            
 //            ScrollViewWithBackgroundImage()
+            
 //            PagingScrollView()
-            PinnedScrollableView()
+            
+//            PinnedScrollableView()
+            
+            ProgrammaticScrollExampleView()
         }
     }
 }
