@@ -11,9 +11,11 @@ import SwiftUI
 struct ProgrammaticScrollExampleView: View {
     let inspirations = Inspiration.createInspirations()
     
+    //@Namespace creates an animation namespace to allow matched geometry effects, which can be shared by other views. This owns its data. @NSApplicationDelegateAdaptor is used to create and register a class as the app delegate.
     @Namespace var topID
     @Namespace var bottomID
     
+    //SwiftUI uses the @State property wrapper to allow us to modify values inside a struct, which would normally not be allowed because structs are values types. When we put @State before a property, we effectively move its storage out from our struct and into shared storage managed by SwiftUI.
     @State private var selectedInspirationID: UUID?
     
     var body: some View {

@@ -34,7 +34,11 @@ struct ScrollView_SwiftUIApp: App {
             
 //            PinnedScrollableView()
             
-            ProgrammaticScrollExampleView()
+//            ProgrammaticScrollExampleView()
+            
+//            ScrollIndicatorView()
+            
+            ScrollOffsetExampleView()
         }
     }
 }

@@ -30,6 +30,9 @@
 		A86550D42A6101E00093985A /* PinnedScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86550D32A6101E00093985A /* PinnedScrollableView.swift */; };
 		A86550D62A61039B0093985A /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86550D52A61039B0093985A /* SectionHeaderView.swift */; };
 		A8EE0B792A6B732500CA36FC /* ProgrammaticScrollExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE0B782A6B732500CA36FC /* ProgrammaticScrollExampleView.swift */; };
+		A8EE0B7B2A6B836D00CA36FC /* ScrollIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE0B7A2A6B836D00CA36FC /* ScrollIndicatorView.swift */; };
+		A8EE0B7D2A6B852A00CA36FC /* ScrollOffsetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE0B7C2A6B852A00CA36FC /* ScrollOffsetExampleView.swift */; };
+		A8EE0B7F2A6C11D100CA36FC /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE0B7E2A6C11D100CA36FC /* ObservableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,9 @@
 		A86550D32A6101E00093985A /* PinnedScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableView.swift; sourceTree = "<group>"; };
 		A86550D52A61039B0093985A /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		A8EE0B782A6B732500CA36FC /* ProgrammaticScrollExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticScrollExampleView.swift; sourceTree = "<group>"; };
+		A8EE0B7A2A6B836D00CA36FC /* ScrollIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollIndicatorView.swift; sourceTree = "<group>"; };
+		A8EE0B7C2A6B852A00CA36FC /* ScrollOffsetExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetExampleView.swift; sourceTree = "<group>"; };
+		A8EE0B7E2A6C11D100CA36FC /* ObservableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,7 @@
 				A84742C12A5F096E00B1F601 /* InspirationTillView.swift */,
 				A84742C32A5F0D0B00B1F601 /* SectionHeaderStyling.swift */,
 				A86550D52A61039B0093985A /* SectionHeaderView.swift */,
+				A8EE0B7E2A6C11D100CA36FC /* ObservableScrollView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +202,8 @@
 				A84742CF2A605AED00B1F601 /* PagingScrollView.swift */,
 				A86550D32A6101E00093985A /* PinnedScrollableView.swift */,
 				A8EE0B782A6B732500CA36FC /* ProgrammaticScrollExampleView.swift */,
+				A8EE0B7A2A6B836D00CA36FC /* ScrollIndicatorView.swift */,
+				A8EE0B7C2A6B852A00CA36FC /* ScrollOffsetExampleView.swift */,
 			);
 			path = ContainViews;
 			sourceTree = "<group>";
@@ -341,12 +350,15 @@
 				A84742C22A5F096E00B1F601 /* InspirationTillView.swift in Sources */,
 				A86550D62A61039B0093985A /* SectionHeaderView.swift in Sources */,
 				A84742C62A5FAC2500B1F601 /* HorizontalScrollView.swift in Sources */,
+				A8EE0B7B2A6B836D00CA36FC /* ScrollIndicatorView.swift in Sources */,
 				A84742C82A5FAEE600B1F601 /* VerticalScrollView.swift in Sources */,
 				A847427F2A5EC4B600B1F601 /* ScrollView_SwiftUIApp.swift in Sources */,
 				A8EE0B792A6B732500CA36FC /* ProgrammaticScrollExampleView.swift in Sources */,
 				A84742BC2A5EFB0700B1F601 /* InspirationScrollView.swift in Sources */,
+				A8EE0B7D2A6B852A00CA36FC /* ScrollOffsetExampleView.swift in Sources */,
 				A84742C42A5F0D0B00B1F601 /* SectionHeaderStyling.swift in Sources */,
 				A84742C02A5F085000B1F601 /* InspirationGridSectionView.swift in Sources */,
+				A8EE0B7F2A6C11D100CA36FC /* ObservableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
