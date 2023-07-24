@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A87321372A6E126E00E27CED /* ObservedObject_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87321362A6E126E00E27CED /* ObservedObject_SwiftUIApp.swift */; };
-		A87321392A6E126E00E27CED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87321382A6E126E00E27CED /* ContentView.swift */; };
+		A87321392A6E126E00E27CED /* NewYearMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87321382A6E126E00E27CED /* NewYearMessageView.swift */; };
 		A873213B2A6E127200E27CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A873213A2A6E127200E27CED /* Assets.xcassets */; };
 		A873213E2A6E127200E27CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A873213D2A6E127200E27CED /* Preview Assets.xcassets */; };
 		A87321482A6E127300E27CED /* ObservedObject_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87321472A6E127300E27CED /* ObservedObject_SwiftUITests.swift */; };
 		A87321522A6E127300E27CED /* ObservedObject_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87321512A6E127300E27CED /* ObservedObject_SwiftUIUITests.swift */; };
 		A87321542A6E127300E27CED /* ObservedObject_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87321532A6E127300E27CED /* ObservedObject_SwiftUIUITestsLaunchTests.swift */; };
+		A87321652A6E14DA00E27CED /* kickstarter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A87321622A6E14DA00E27CED /* kickstarter.mp3 */; };
+		A87321662A6E14DA00E27CED /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A87321632A6E14DA00E27CED /* rain.mp3 */; };
+		A87321672A6E14DA00E27CED /* fireworks.wav in Resources */ = {isa = PBXBuildFile; fileRef = A87321642A6E14DA00E27CED /* fireworks.wav */; };
+		A873216C2A6E156E00E27CED /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A873216B2A6E156E00E27CED /* AudioPlayer.swift */; };
+		A873216E2A6E1B2300E27CED /* MessengerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A873216D2A6E1B2300E27CED /* MessengerManager.swift */; };
+		A87321702A6E377C00E27CED /* EmojiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A873216F2A6E377C00E27CED /* EmojiCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		A87321332A6E126E00E27CED /* ObservedObject_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservedObject_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87321362A6E126E00E27CED /* ObservedObject_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject_SwiftUIApp.swift; sourceTree = "<group>"; };
-		A87321382A6E126E00E27CED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A87321382A6E126E00E27CED /* NewYearMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearMessageView.swift; sourceTree = "<group>"; };
 		A873213A2A6E127200E27CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A873213D2A6E127200E27CED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A87321432A6E127300E27CED /* ObservedObject_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObservedObject_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		A873214D2A6E127300E27CED /* ObservedObject_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObservedObject_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87321512A6E127300E27CED /* ObservedObject_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		A87321532A6E127300E27CED /* ObservedObject_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A87321622A6E14DA00E27CED /* kickstarter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kickstarter.mp3; sourceTree = "<group>"; };
+		A87321632A6E14DA00E27CED /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		A87321642A6E14DA00E27CED /* fireworks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fireworks.wav; sourceTree = "<group>"; };
+		A873216B2A6E156E00E27CED /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		A873216D2A6E1B2300E27CED /* MessengerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerManager.swift; sourceTree = "<group>"; };
+		A873216F2A6E377C00E27CED /* EmojiCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,11 @@
 		A87321352A6E126E00E27CED /* ObservedObject_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A873216A2A6E14FC00E27CED /* ViewModels */,
+				A87321692A6E14F500E27CED /* Views */,
+				A87321682A6E14EC00E27CED /* Models */,
+				A87321602A6E14B300E27CED /* Resources */,
 				A87321362A6E126E00E27CED /* ObservedObject_SwiftUIApp.swift */,
-				A87321382A6E126E00E27CED /* ContentView.swift */,
 				A873213A2A6E127200E27CED /* Assets.xcassets */,
 				A873213C2A6E127200E27CED /* Preview Content */,
 			);
@@ -125,6 +140,49 @@
 				A87321532A6E127300E27CED /* ObservedObject_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = ObservedObject_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		A87321602A6E14B300E27CED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A87321612A6E14DA00E27CED /* sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A87321612A6E14DA00E27CED /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A87321622A6E14DA00E27CED /* kickstarter.mp3 */,
+				A87321632A6E14DA00E27CED /* rain.mp3 */,
+				A87321642A6E14DA00E27CED /* fireworks.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		A87321682A6E14EC00E27CED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A873216B2A6E156E00E27CED /* AudioPlayer.swift */,
+				A873216D2A6E1B2300E27CED /* MessengerManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A87321692A6E14F500E27CED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A87321382A6E126E00E27CED /* NewYearMessageView.swift */,
+				A873216F2A6E377C00E27CED /* EmojiCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A873216A2A6E14FC00E27CED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87321662A6E14DA00E27CED /* rain.mp3 in Resources */,
+				A87321652A6E14DA00E27CED /* kickstarter.mp3 in Resources */,
 				A873213E2A6E127200E27CED /* Preview Assets.xcassets in Resources */,
+				A87321672A6E14DA00E27CED /* fireworks.wav in Resources */,
 				A873213B2A6E127200E27CED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +318,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87321392A6E126E00E27CED /* ContentView.swift in Sources */,
+				A87321392A6E126E00E27CED /* NewYearMessageView.swift in Sources */,
+				A873216E2A6E1B2300E27CED /* MessengerManager.swift in Sources */,
 				A87321372A6E126E00E27CED /* ObservedObject_SwiftUIApp.swift in Sources */,
+				A87321702A6E377C00E27CED /* EmojiCollectionView.swift in Sources */,
+				A873216C2A6E156E00E27CED /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
