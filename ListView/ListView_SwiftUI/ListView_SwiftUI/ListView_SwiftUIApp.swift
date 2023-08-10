@@ -12,12 +12,12 @@ struct ListView_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
 //            EnvironmentListView()
-//            MultipleSelectionListView()
+            MultipleSelectionListView()
 //            SettingView()
 //            SectionFoodListView()
 //            HeirarchicalListView()
 //            FoodListView()
-            FoodCustomCellView()
+//            FoodCustomCellView()
         }
     }
 }

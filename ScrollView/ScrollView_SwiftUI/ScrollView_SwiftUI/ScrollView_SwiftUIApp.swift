@@ -30,7 +30,7 @@ struct ScrollView_SwiftUIApp: App {
             
 //            ScrollViewWithBackgroundImage()
             
-//            PagingScrollView()
+            PagingScrollView()
             
 //            PinnedScrollableView()
             
@@ -38,7 +38,7 @@ struct ScrollView_SwiftUIApp: App {
             
 //            ScrollIndicatorView()
             
-            ScrollOffsetExampleView()
+//            ScrollOffsetExampleView()
         }
     }
 }
