@@ -22,7 +22,7 @@ class ResponseBase: Mappable {
     }
     
     func mapping(map: Map) {
-        result <- (map["result"])
+        result <- map["result"]
         msg <- map["msg"]
     }
    

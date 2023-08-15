@@ -24,13 +24,13 @@ struct ScrollView_SwiftUIApp: App {
 //            VerticalScrollView()
             
             //using grid scrollview
-//            GridScrollView()
+            GridScrollView()
             
 //            FixedTextWithScrollView()
             
 //            ScrollViewWithBackgroundImage()
             
-            PagingScrollView()
+//            PagingScrollView()
             
 //            PinnedScrollableView()
             
