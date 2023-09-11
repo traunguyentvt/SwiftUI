@@ -34,6 +34,7 @@ struct MainView: View {
             
             TextField("1", text: $viewModel.inputCCy)
                 .keyboardType(.numberPad)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             
             Menu {
                 ForEach(viewModel.currencies, id: \.self) { item in
@@ -59,16 +60,40 @@ struct MainView: View {
                 }
             }
 
-            ScrollView {
-                        LazyVGrid(columns: columns, spacing: 20) {
-                            ForEach(viewModel.filterRates, id: \.self) { item in
-                                Text(item.display)
-                                    .multilineTextAlignment(.center)
-                            }
+            switch viewModel.state {
+            case .loading:
+                Spacer()
+                ProgressView("Loading")
+                
+            case .empty:
+                Spacer()
+                Text("There is no data!")
+                    .font(.title)
+                    .foregroundColor(.red)
+                
+            case .ready:
+                Spacer()
+                Text("Home View!")
+                    .font(.title)
+                    .foregroundColor(.cyan)
+                
+            case .finished:
+                ScrollView {
+                    LazyVGrid(columns: columns, spacing: 20) {
+                        ForEach(viewModel.filterRates, id: \.self) { item in
+                            Text(item.display)
+                                .multilineTextAlignment(.center)
                         }
-                        .padding(.horizontal)
                     }
-
+                    .padding(.horizontal)
+                }
+                
+            case .error(error: let error):
+                Spacer()
+                Text("Error: \(error)")
+                    .font(.title)
+                    .foregroundColor(.red)
+            }
             
             Spacer()
             

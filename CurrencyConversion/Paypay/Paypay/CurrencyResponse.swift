@@ -15,7 +15,7 @@ struct CurrencyResponse: Decodable {
     let rates: [String: Double]?
 }
 
-struct CurrencyRateItem: Hashable {
+struct CurrencyRateItem: Hashable, Decodable {
     let ccy: String
     let rate: Double
     
@@ -35,7 +35,7 @@ struct CurrencyRateItem: Hashable {
 }
 
 
-struct CurrencyData: Hashable {
+struct CurrencyData: Hashable, Decodable {
     let ccy: String
     let name: String
     

@@ -66,6 +66,7 @@
 		A8359D7C2A880030001E4DBA /* currencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = currencies.json; sourceTree = "<group>"; };
 		A8359D7D2A880030001E4DBA /* latest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = latest.json; sourceTree = "<group>"; };
 		A8359D7E2A880030001E4DBA /* MockCurrencyViewVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCurrencyViewVM.swift; sourceTree = "<group>"; };
+		A8684C112A9A62D300006D96 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		A8359D472A87FF74001E4DBA /* Paypay */ = {
 			isa = PBXGroup;
 			children = (
+				A8684C112A9A62D300006D96 /* MyPlayground.playground */,
 				A8359D742A87FFDC001E4DBA /* CurrencyResponse.swift */,
 				A8359D732A87FFDC001E4DBA /* CurrencyViewVM.swift */,
 				A8359D722A87FFDC001E4DBA /* Date+Helper.swift */,

@@ -32,6 +32,7 @@ extension HTTPClient {
         }
         
         do {
+//            URLSession.shared.configuration.requestCachePolicy = .useProtocolCachePolicy
             var dataResponse: (Data, URLResponse)?
             if let session = urlSession {
                 dataResponse = try await session.data(for: request, delegate: nil)

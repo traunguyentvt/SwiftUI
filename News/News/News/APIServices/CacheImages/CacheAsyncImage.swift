@@ -61,7 +61,7 @@ struct CacheAsyncImage_Previews: PreviewProvider {
     }
 }
 
-fileprivate final class ImageCache {
+internal final class ImageCache {
     static private var cache: [URL: Image] = [:]
     
     static subscript(url: URL) -> Image? {
